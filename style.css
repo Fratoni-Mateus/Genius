@@ -3,6 +3,11 @@ body {
     background-color: rgb(162, 225, 250);
 }
 
+p {
+    justify-content: center;
+    align-content: center;
+}
+
 .main-game {
     height: 100vh;
     width: 100vw;
