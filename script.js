@@ -26,14 +26,14 @@ let shuffleOrder = () => {
 
 //Lights the next color
 let lightColor = (element, number) => {
-    number = number * 500;
+    number = number * 650;
     setTimeout(() => {
         element.classList.add("selected");
     }, number);
 
     setTimeout(() => {
         element.classList.remove("selected");
-    },number + 500);
+    },number + 350);
 }
 
 //Checks if the pressed buttons are equal to the game generated sequence
@@ -46,7 +46,7 @@ let checkOrder = () => {
     }
     if(clickedOrder.length == order.length) {
         //alert(`Pontuação: ${score}\nVocê acertou! Iniciando próximo nível!`);
-        setTimeout(nextLevel(),500);
+        setTimeout(nextLevel(),600);
     }
 }
 
@@ -58,7 +58,7 @@ let click = (color) => {
     setTimeout(() => {
         createColorElement(color).classList.remove('selected');
         checkOrder();
-    },100);
+    },150);
 
 
 }
