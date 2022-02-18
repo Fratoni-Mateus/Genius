@@ -93,9 +93,7 @@ let gameOver = () => {
 
 //Starts the game
 let playGame = () => {
-    alert("Bem vindo ao Gênesis! Iniciando novo jogo!");
     score = 0;
-
     nextLevel();
 }
 
@@ -105,6 +103,13 @@ red.onclick = () => click(1);
 yellow.onclick = () => click(2);
 blue.onclick = () => click(3);
 
+//Welcome message only on page load
+let welcomeMessage = () => {
+    alert("Bem vindo ao Gênesis! Iniciando novo jogo!");
+}
+
+//Welcomes player
+welcomeMessage();
 
 //Auto-start the game on page load.
 playGame();
