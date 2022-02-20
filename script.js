@@ -105,7 +105,7 @@ blue.onclick = () => click(3);
 
 //Welcome message only on page load
 let welcomeMessage = () => {
-    alert("Bem vindo ao Gênesis! Iniciando novo jogo!");
+    alert("Bem vindo ao Genius! Iniciando novo jogo!");
 }
 
 //Welcomes player
