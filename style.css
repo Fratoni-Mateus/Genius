@@ -5,7 +5,10 @@ body {
 
 p {
     justify-content: center;
-    align-content: center;
+    text-align: center;
+    padding: auto;
+    padding-top: 8px;
+    padding-bottom: 4px;
 }
 
 .main-game {
@@ -24,8 +27,8 @@ p {
     border: 1px solid white;
     background-color: white;
     border-radius: 100%;
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
 }
 
 .blue {
